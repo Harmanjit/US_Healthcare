@@ -1,0 +1,2 @@
+[console_scripts]
+ehr = us_healthcare.cli:app

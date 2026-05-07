@@ -1,3 +1,25 @@
+Metadata-Version: 2.4
+Name: us-healthcare-ehr
+Version: 0.1.0
+Summary: Reproducible EHR dataset analysis workflows (ARMD + others).
+Author: Harman
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.2
+Requires-Dist: pyarrow>=16
+Requires-Dist: typer>=0.12
+Requires-Dist: rich>=13.7
+Requires-Dist: numpy>=1.26
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"
+Provides-Extra: viz
+Requires-Dist: matplotlib>=3.9; extra == "viz"
+Requires-Dist: plotly>=5.22; extra == "viz"
+Provides-Extra: app
+Requires-Dist: streamlit>=1.37; extra == "app"
+Requires-Dist: plotly>=5.22; extra == "app"
+
 # US_Healthcare (EHR analytics portfolio)
 
 This repo is being shaped into a **reproducible, scalable EHR-style analytics codebase**.
